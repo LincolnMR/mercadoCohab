@@ -1,0 +1,136 @@
+  *{
+	margin:0;
+	border:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 20px;
+    background-color: rgb(255, 178, 61) ;
+
+}
+
+header {
+
+    height: 150px;
+    max-width: auto;
+    background-color: #2e3192;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    margin-right: 30px;
+}
+
+
+#nome {
+
+    margin-left: 30px;
+    height: 140px;
+    width: 900px;
+}
+
+article {
+
+    max-height: auto;
+    max-width: auto;
+    background-color: white;
+    margin: 60px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+
+#mercadorias img{
+
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+}
+
+#legenda{
+        background-color: #2e3192;
+        color: white;
+
+}
+
+section{
+
+    max-height: auto;
+    max-width: auto;
+    background-color: white;
+    border: 50px solid rgb(255, 178, 61);
+    margin: 40px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+#promocao img {
+
+    height: 150px;
+    width: 150px;
+    margin: 30px;
+
+}
+
+#promocao #bacon {
+
+    height: 200px;
+    width: 200px;
+}
+
+footer{
+
+    max-height: auto;
+    max-width: auto;
+    margin: 60px;
+}
+
+.rodape{
+
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.rodape h3 , .rodape p{
+
+    margin: 10px;
+}
+
+#wpp {
+
+    height: 20px;
+    width: 20px;
+}
+
+.formulario{
+
+    max-height: auto;
+    max-width: auto;
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario input{
+    border: 1px solid black;
+    height: 20px;
+}
+
+#dados{
+
+    border: 1px solid black;
+    
+}
